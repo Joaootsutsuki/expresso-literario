@@ -1,0 +1,26 @@
+{
+  "name": "joao-vitosoaski/expresso-literario",
+  "description": "Loja de Livros chamada Expresso Literário",
+  "autoload": {
+    "files": [
+      "app/helpers/constants.php",
+      "app/router/router.php",
+      "app/router/routes.php",
+      "app/core/controller.php",
+      "app/database/connect.php",
+      "app/database/fetch.php",
+      "app/database/create.php",
+      "app/helpers/flash.php",
+      "app/helpers/redirect.php",
+      "app/helpers/sessions.php",
+      "app/helpers/validate.php",
+      "app/helpers/validations.php"
+    ],
+    "psr-4": {
+      "app\\": "app"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.5"
+  }
+}
